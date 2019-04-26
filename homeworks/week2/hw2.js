@@ -1,5 +1,6 @@
 function capitalize(str) {
-  return str;
+  const newStr = str[0].toUpperCase() + str.slice(1);
+  return newStr;
 }
-
-console.log(capitalize('hello'));
+console.log(capitalize('estella'));
+console.log(capitalize('54estella'));
