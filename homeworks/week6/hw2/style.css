@@ -1,0 +1,71 @@
+.body {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (max-width: 1100px) {
+      .clap {
+        display: none;
+      }
+    }
+    @media screen and (max-width: 1090px) {
+      .article {
+        font-size: 32px;
+        padding: 4px 0px;
+      }
+    }
+
+
+.article {
+margin: 50px auto;
+max-width: 900px;
+padding: 0 35px;
+}
+
+.header {
+font-size: 42px;
+display: block;
+}
+
+
+.content {
+margin: 40px auto;
+
+}
+.word {
+margin: 10px auto;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0.1px;
+padding: 10px 0px;
+}
+
+
+.clap {
+position: fixed;
+top: 150px;
+left: 35px;
+width: 60px;
+height: 60px;
+border-radius: 99em;
+border-style: solid;
+border-color: #ADADAD;
+border-width: 1px;
+}
+
+.clap:hover{
+  border-color: #2F4F4F;
+  cursor: pointer;
+}
+
+.clap-num {
+  position: absolute;
+  top: 10px;
+  left: 17px;
+}
+
+.clap-hands {
+  position: absolute;
+  top: 28px;
+  left: 19px;
+}
