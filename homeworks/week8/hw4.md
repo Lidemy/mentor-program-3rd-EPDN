@@ -4,8 +4,13 @@ Asychronous JavaScript And XML，非同步 JavaScript 及 XML，非同步和伺�
 ## 用 Ajax 與我們用表單送出資料的差別在哪？
 最明顯的差別為 Ajax 是透過 JavaScript 來發送請求，form 則是瀏覽器本身，Ajax 不需要重新載入網頁，就可以拿到請求的回應，form 會刷新頁面。
 
+表單送出資料會整個跑出一個新的畫面並將程式碼整個重新跑過
+Ajax 不會換頁，只會有部分畫面更動成新的
+
 ## JSONP 是什麼？
-JSON with Padding，一種交換資料的方式，由於同源政策的限制，在不同網域上資料溝通上會有問題，而恰好在 html 中有些標籤是不會受到同源政策的限制，```<script>``` 就是其中一個，JSONP 就是利用這個元素，而可以透過 function 回傳回來的一個 JavaScript object 得到從其他來源動態產生的資料，Padding 則是代表會會在伺服器端做這個 JavaScript object 的填充，Client 端就可以透過 function 拿到資料。
+
+JSONP 是一種交換資料的方式
+由於受到同源政策的影響，存取資料時會受到阻礙，但 HTML 標籤中的 ```<script>``` 並不受到同源政策阻饒，因此可以透過 javascript動態產生的 JSON 資料來讓其他人存取資料 
 
 
 

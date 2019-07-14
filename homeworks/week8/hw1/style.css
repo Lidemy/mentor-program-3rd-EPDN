@@ -1,0 +1,51 @@
+html, body {
+  width: 100%;
+  height: 100%
+}
+
+ body {
+  background: rgb(184, 160, 160);
+}
+
+ .wrap {
+  margin:0 auto;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Times New Roman';
+  top: 200px;
+}
+
+ .message {
+  font-size: 50px;
+  color: rgb(44, 44, 44);
+}
+
+ .btn {
+  border: none;
+  background: rgb(95, 8, 46);
+  color: rgb(255, 0, 162);
+  padding: 10px 40px;
+  margin: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: all 0.5s;
+  outline: none;
+  font-family: 'Times New Roman';
+}
+
+ .btn:hover{
+  background: rgb(233, 201, 206);
+  cursor: pointer;
+}
+
+ .picture {
+  width: 300px;
+  height: 200px;
+}
+
+ .active {
+  display: none;
+} 
